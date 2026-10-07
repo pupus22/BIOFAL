@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BIOFAL TSP-1 | Tangki Septik & Biotank Ramah Lingkungan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigasi -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-mark">BIO</span>FAL
+      </div>
+      <nav class="nav-links">
+        <a href="#eksplorasi">Eksplorasi</a>
+        <a href="#fitur">Keunggulan</a>
+        <a href="#spesifikasi">Spesifikasi</a>
+        <a href="#sertifikasi">Legalitas</a>
+      </nav>
+      <a href="https://wa.me/628123536904?text=Halo%20Mams,%20saya%20ingin%20konsultasi%20pemesanan%20BIOFAL%20TSP-1" class="nav-cta" target="_blank" rel="noopener">
+        Hubungi Sales
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="pill-badge">Sertifikasi BTS PUPR & TKDN Kemenperin</div>
+      <h1>Standar Baru Sanitasi Modern & Bebas Pencemaran</h1>
+      <p>BIOFAL TSP - 1: Biotank ramah lingkungan dengan sistem 4 kompartemen terintegrasi, Upflow Filter, dan media bioball berbasis Polyethylene presisi tinggi.</p>
+      <div class="hero-actions">
+        <a href="#eksplorasi" class="btn-primary">Jelajahi Struktur Tangki ↓</a>
+        <a href="https://linktr.ee/ipalbiofal" target="_blank" rel="noopener" class="btn-secondary">Katalog Digital</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Scrollytelling Section -->
+  <section id="eksplorasi" class="scrolly-container">
+    <!-- Visual Stage (Sticky di layar tengah saat scroll) -->
+    <div class="visual-viewport">
+      <div class="stage-frame">
+        <!-- Layer 1: Tampak Luar Utuh -->
+        <div class="layer-item active" id="layer-outer">
+          <img src="assets/biofal-front.jpg" alt="Tangki Septik BIOFAL TSP-1 Tampak Luar" class="product-img" />
+          <div class="hotspot" style="top: 28%; left: 52%;" data-tooltip="Tutup inspeksi kedap udara & mudah dibuka"></div>
+          <div class="hotspot" style="top: 42%; left: 45%;" data-tooltip="Inlet pipa masuk limbah berstandar presisi"></div>
+          <div class="hotspot" style="top: 70%; left: 50%;" data-tooltip="Bahan Polyethylene (PE) tahan karat & benturan"></div>
+        </div>
+
+        <!-- Layer 2: Tampak Atas 4 Kompartemen & Bioball -->
+        <div class="layer-item" id="layer-inside">
+          <img src="assets/biofal-top.jpg" alt="Bagian Dalam 4 Kompartemen BIOFAL" class="product-img" />
+          <div class="hotspot" style="top: 35%; left: 48%;" data-tooltip="Kompartemen Pengendapan 1 & 2"></div>
+          <div class="hotspot" style="top: 60%; left: 54%;" data-tooltip="Media Filter Bioball pembiak bakteri pengurai"></div>
+        </div>
+
+        <!-- Layer 3: Diagram Alur Upflow Filter -->
+        <div class="layer-item" id="layer-diagram">
+          <img src="assets/biofal-diagram.jpg" alt="Diagram Aliran Potongan Vertikal BIOFAL" class="product-img" />
+          <div class="hotspot" style="top: 25%; left: 30%;" data-tooltip="Alur masuk limbah domestik (Inlet)"></div>
+          <div class="hotspot" style="top: 65%; left: 55%;" data-tooltip="Sistem Upflow (aliran naik melewati biofilter)"></div>
+          <div class="hotspot" style="top: 25%; left: 70%;" data-tooltip="Outlet buangan jernih ramah lingkungan"></div>
+        </div>
+      </div>
+
+      <div class="stage-indicator">
+        <span class="indicator-dot active" data-step="1"></span>
+        <span class="indicator-dot" data-step="2"></span>
+        <span class="indicator-dot" data-step="3"></span>
+      </div>
+    </div>
+
+    <!-- Teks Cerita Bertahap (Scrolly Steps) -->
+    <div class="scrolly-text-column">
+      <div class="step-card active" data-step="1">
+        <span class="step-num">01 / EKSTERIOR</span>
+        <h2>Konstruksi Polyethylene (PE) Ultra Kuat</h2>
+        <p>Bodi tabung dicetak dengan densitas tinggi tanpa sambungan rawan bocor. Tahan terhadap kelembapan tanah ekstrem, anti-karat, dan berbobot ringan sehingga pemasangan sangat ringkas dibanding tangki beton.</p>
+        <ul class="step-highlights">
+          <li>100% Kedap air & anti rembes</li>
+          <li>Kapasitas volume total 0,98 m³</li>
+          <li>Dilengkapi lubang akses inspeksi perawatan berkala</li>
+        </ul>
+      </div>
+
+      <div class="step-card" data-step="2">
+        <span class="step-num">02 / INTERIOR</span>
+        <h2>Sistem 4 Kompartemen & Media Bioball</h2>
+        <p>Proses pemisahan limbah padat dan cair berlangsung optimal melalui 4 tahapan sekat terpisah. Mikroorganisme anaerobik hidup di permukaan media bioball untuk mengurai kontaminan secara alami tanpa listrik.</p>
+        <ul class="step-highlights">
+          <li>Kapasitas olah efektif 0,7 m³ (5-6 Jiwa / 1 KK)</li>
+          <li>Reduksi lumpur endapan maksimal</li>
+          <li>Bebas bau menyengat & minim sedot</li>
+        </ul>
+      </div>
+
+      <div class="step-card" data-step="3">
+        <span class="step-num">03 / ALUR KERJA</span>
+        <h2>Mekanisme Upflow Filter Tersertifikasi</h2>
+        <p>Air limbah dialirkan dari kompartemen pengendapan menuju ruang biofilter dari arah bawah ke atas (upflow). Penyaringan bertingkat ini memastikan partikel tersaring sempurna sebelum dialirkan ke saluran buang.</p>
+        <ul class="step-highlights">
+          <li>Sesuai standar uji Balai Teknologi Sanitasi PUPR</li>
+          <li>Buangan aman bagi kualitas air tanah sekitar</li>
+          <li>Efisiensi degradasi bahan organik tinggi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fitur Keunggulan -->
+  <section id="fitur" class="content-section">
+    <div class="section-header">
+      <h2>Mengapa Memilih BIOFAL TSP-1?</h2>
+      <p>Dirancang sebagai solusi sanitasi terpadu untuk hunian, komersial, dan proyek perumahan.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-box">
+        <div class="feature-icon">🛡️</div>
+        <h3>Tahan Karat & Korosi</h3>
+        <p>Material Polyethylene murni memiliki ketahanan abadi terhadap zat asam, lumpur, dan asam organik tanah.</p>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">⚙️</div>
+        <h3>Instalasi Singkat & Ringan</h3>
+        <p>Tidak membutuhkan alat berat untuk mobilisasi. Pemasangan tuntas hanya dalam hitungan jam.</p>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">🌱</div>
+        <h3>Eksklusif Ramah Lingkungan</h3>
+        <p>Telah teregistrasi resmi di KLHK, menjamin buangan air limbah toilet tidak mencemari sumur dangkal.</p>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">🔧</div>
+        <h3>Perawatan Sangat Minim</h3>
+        <p>Proses dekomposisi biologis mandiri membuat tangki bekerja otomatis tanpa bahan kimia tambahan.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spesifikasi Dimensi -->
+  <section id="spesifikasi" class="content-section bg-alt">
+    <div class="section-header">
+      <h2>Spesifikasi Teknis Produk</h2>
+      <p>Data metrik terukur untuk kemudahan perencanaan teknis arsitek dan kontraktor sipil.</p>
+    </div>
+    <div class="specs-wrapper">
+      <table class="specs-table">
+        <tbody>
+          <tr><td>Model / Tipe</td><td><strong>BIOFAL TSP - 1 (Individual)</strong></td></tr>
+          <tr><td>Material Utama</td><td>High Density Polyethylene (PE) Premium</td></tr>
+          <tr><td>Kapasitas Beban</td><td>1 Kepala Keluarga (5 – 6 Jiwa)</td></tr>
+          <tr><td>Volume Total Tangki</td><td>0,98 m³ (980 Liter)</td></tr>
+          <tr><td>Kapasitas Olah Efektif</td><td>0,70 m³ (700 Liter)</td></tr>
+          <tr><td>Dimensi Fisik</td><td>Tinggi: 110 cm | Ø Atas: 122 cm | Ø Bawah: 98 cm</td></tr>
+          <tr><td>Metode Filtrasi</td><td>Sistem 4 Kompartemen + Anaerobic Upflow Filter + Bioball</td></tr>
+          <tr><td>Peruntukan Proyek</td><td>Rumah Pribadi, Perumahan, Ruko, Kantor, Sekolah, Tempat Ibadah</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Sertifikasi & Legalitas -->
+  <section id="sertifikasi" class="content-section">
+    <div class="section-header">
+      <h2>Sertifikasi & Kepatuhan Standar Mutu</h2>
+      <p>Legalitas resmi yang telah diakui kementerian dan badan akreditasi nasional.</p>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <div class="cert-tag">PUPR</div>
+        <h4>Sertifikat Inspeksi Teknis BTS</h4>
+        <p>Kementerian PUPR No. 02/STF/INSPEKSI-BTS/Ch/2024</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-tag">KEMENPERIN</div>
+        <h4>Tanda Sah Capaian TKDN</h4>
+        <p>Tanda Sah No. 4376/SJ-IND.8/E-TKDN/7/2024</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-tag">KLHK</div>
+        <h4>Registrasi Ramah Lingkungan</h4>
+        <p>Kementerian Lingkungan Hidup dan Kehutanan</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-tag">HAKI</div>
+        <h4>Paten Sederhana & Sertifikat Merek</h4>
+        <p>Kementerian Hukum & HAM Republik Indonesia</p>
+      </div>
+      <div class="cert-card">
+        <div class="cert-tag">KAN / SNI</div>
+        <h4>Sistem Manajemen Terpadu</h4>
+        <p>ISO SNI 9001:2015, ISO 14001:2015, ISO 45001:2018</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3>PT FAL JAYA ABADI</h3>
+        <p>Produsen Spesialis Tangki Septik Individual & IPAL Komunal Berstandar Standarisasi Nasional.</p>
+      </div>
+      <div class="footer-contact">
+        <p>Kontak Konsultasi & Penawaran:</p>
+        <p><strong>Mams: 0812 3536 904</strong></p>
+        <p><a href="https://linktr.ee/ipalbiofal" target="_blank" rel="noopener">Kunjungi linktr.ee/ipalbiofal</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 BIOFAL TSP-1. Hak Cipta Dilindungi Undang-Undang.
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/628123536904?text=Halo%20Mams,%20saya%20ingin%20tanya%20detail%20produk%20BIOFAL%20TSP-1" class="floating-wa" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+    <span class="wa-icon">💬</span>
+    <span class="wa-text">Konsultasi BIOFAL</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
